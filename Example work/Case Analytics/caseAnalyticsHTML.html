@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Load Chart.js library -->
+    <script src="CHARTJSURL" rel="javascript"></script>
+    <!-- Load client side JS file (capacityReportingCreateGraphs.js) -->
+    <script src="CLIENTSIDEJSURL" rel="javascript"></script>
+    <style>
+        .myChart {
+            max-height: 775px;
+            max-width: 2038px;
+            background: white;
+        }
+    </style>
+</head>
+
+<body style="background-color:black;">
+
+<div id="GRAPHSDIV"></div>
+<!-- Replace with graph data in string form -->
+<script>createGraphs(GRAPHDATA, 'GRAPHSDIV')</script>
+</body>
+
+</html>
